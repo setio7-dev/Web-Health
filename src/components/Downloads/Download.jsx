@@ -23,7 +23,7 @@ const Download = () => {
                     <img src={kutip} alt="" className='w-[50px] h-auto my-3 lg:mr-[350px] mr-[280px]'/>
                     <p className='font-poppins w-[350px] lg:text-left text-center lg:px-0 px-[16px]'>Be part of the movement to protect children and women with SatyGuard, their safety is our priority.</p>
                     <img src={kutip} alt="" className='w-[50px] h-auto my-3 lg:ml-[350px] ml-[280px]'/>
-                    <button className='bg-black font-poppins2 text-white w-full h-[60px] rounded-xl hover:scale-90 hover:opacity-80 transition-all'>Learn more about SafetyGuard</button>
+                    <button className='bg-black font-poppins2 text-white w-full h-[60px] rounded-xl hover:scale-90 hover:opacity-80 transition-all'>Learn more about SatyGuard</button>
                 </div>
             </div>
             <div className='handphone flex-col items-end justify-center mt-[30px]' data-aos="fade-down-left" data-aos-duration="800">
