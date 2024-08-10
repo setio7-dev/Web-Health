@@ -10,7 +10,7 @@ import drawIcon from '/image/information/draw.png'
 const About = () => {
   return (
     <div className='lg:pt-[170px] pt-[80px]' data-aos-duration="800">
-        <div className='text-center mt-[120px] w-full h-[40vh] mb-[90px] lg:mb-[140px]' data-aos="fade-up" data-aos-duration="800">
+        <div className='text-center mt-[120px] w-full lg:h-[40vh] h-[20vh] mb-[90px] lg:mb-[140px] flex items-center flex-col' data-aos="fade-up" data-aos-duration="800">
             <h1 className='font-poppins lg:text-[30px] text-[18px] lg:px-0 px-8'>Improve your security and find the access you need with 
             <br />SatyGuard.</h1>
         </div>
