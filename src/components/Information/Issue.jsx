@@ -27,7 +27,7 @@ const Issue = () => {
                   className='flex justify-between items-center p-4 cursor-pointer font-poppins transition-all duration-500 hover:bg-gray-300 hover:text-purple focus:text-purple' 
                   onClick={() => handleToggle(i)} 
                 >
-                  <h1 className='text-lg font-semibold transition-all duration-500 lg:text-[18px] text-[15px]'>{item.title}</h1>
+                  <h1 className='text-lg font-semibold transition-all duration-500 lg:text-[18px] text-[12px] lg:w-full w-[250px]'>{item.title}</h1>
                   <i className={`bx ${activeIndex === i ? 'bx-chevron-up rotate-180' : 'bx-chevron-down'} text-xl transition-transform duration-500 font-poppins1 text-[33px]`}></i>
                 </div>
                 <div className={`p-4 transition-opacity duration-500 ${activeIndex === i ? 'opacity-100' : 'opacity-0'}`}>
