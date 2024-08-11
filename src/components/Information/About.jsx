@@ -57,7 +57,7 @@ const About = () => {
                         <h1 className='font-poppins text-[19px] lg:w-[230px] pt-4'>Continuous 24/7 Support System</h1>
                         <p className='font-poppins1 text-[16px] lg:w-[260px]'>Receive assistance and guidance around the clock, ensuring you are never alone in your journey.</p>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-delay="300" data-aos-duration="800">
+                    <div data-aos="fade-up-right" data-aos-delay="400" data-aos-duration="800">
                         <img src={drawIcon} alt="" className='w-[40px] h-[40px]'/>
                         <h1 className='font-poppins text-[19px] lg:w-[250px] pt-4'>User-Friendly and Intuitive Design</h1>
                         <p className='font-poppins1 text-[16px] lg:w-[260px]'>Navigate effortlessly through our platform with a sleek and intuitive design crafted with your needs in mind.</p>
