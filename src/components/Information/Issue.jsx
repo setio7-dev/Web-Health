@@ -28,7 +28,7 @@ const Issue = () => {
                   onClick={() => handleToggle(i)} 
                 >
                   <h1 className='text-lg font-semibold transition-all duration-500 lg:text-[18px] text-[12px] lg:w-full w-[250px]'>{item.title}</h1>
-                  <i className={`bx ${activeIndex === i ? 'bx-chevron-up rotate-180' : 'bx-chevron-down'} text-xl transition-transform duration-500 font-poppins1 text-[33px]`}></i>
+                  <i className={`bx ${activeIndex === i ? 'bx-chevron-up rotate-180' : 'bx-chevron-down'} text-3xl transition-transform duration-500 font-poppins1 text-[33px]`}></i>
                 </div>
                 <div className={`p-4 transition-opacity duration-500 ${activeIndex === i ? 'opacity-100' : 'opacity-0'}`}>
                   <p className='lg:w-[500px] font-poppins2 lg:text-[15px] text-[13px] text-justify'>{item.description}</p>
