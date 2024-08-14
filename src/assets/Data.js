@@ -11,19 +11,19 @@ export const dataMental = [
         id: 1,
         img: pics1,
         head: "Holistic approach",
-        text: "Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris."
+        text: "Satyguard is not just another location tracking app. We understand that security is a multidimensional issue. Therefore, Satyguard offers a holistic approach that encompasses physical protection, mental health, prevention and community."
     },
     {
         id: 2,
         img: pics2,
         head: "Expertise Team",
-        text: "Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris."
+        text: " Our team of experts is committed to creating a positive and rewarding online environment for all users. We understand that feelings of isolation can exacerbate a difficult situation. Therefore, we have designed community features on Satyguard with the aim to Provide emotional support"
     },
     {
         id: 3,
         img: pics3,
         head: "Accessibility",
-        text: "Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing fringilla nulla diam lorem non mauris."
+        text: "Satyguard is designed with users in emergency situations in mind. We understand that every second counts. Therefore, we made sure that the app is very easy to use, with just one touch, you can instantly contact the police, or the closest person you have pre-designated."
     },
 ]
 

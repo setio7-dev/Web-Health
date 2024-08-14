@@ -7,7 +7,7 @@ import Charts from '../components/Information/Chart.jsx'
 
 const Information = () => {
   return (
-    <div>
+    <div className='container'>
         <div className='relative z-10'>
             <Navbar/>
         </div>

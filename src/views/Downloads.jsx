@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Downloads = () => {
   return (
-    <div>
+    <div className='container'>
         <div className='relative z-10'>
             <Navbar/>
         </div>
