@@ -25,7 +25,7 @@ const Boarding = () => {
 
   return (
     <div
-      className={`fixed inset-0 flex items-center justify-center bg-white transition-transform duration-1000 ${
+      className={`fixed inset-0 flex items-center justify-center bg-white transition-transform duration-[2s] ${
         isFinished ? '-translate-y-full' : 'translate-y-0'
       }`}
     >
