@@ -12,7 +12,7 @@ const Navbar = () => {
     const ulClass = 'lg:items-center items-start font-poppins flex lg:space-y-0 lg:space-x-20 text-[18px] lg:w-full lg:pl-0 lg:h-0 pl-10 lg:pt-0 lg:relative absolute lg:flex-row flex-col space-y-16 top-0 right-0 w-[200px] h-[100vh] pt-[130px] lg:bg-none bg-white cursor-pointer lg:justify-end justify-start';
     const visibilityClass = invisible ? 'animate-moveRight' : 'animate-moveLeft';
   return (
-    <div className='flex justify-between items-center bg-white w-full h-[12vh] lg:h-[16vh] lg:px-12 px-6 fixed container'>
+    <div className='flex justify-between items-center bg-white w-full h-[12vh] lg:h-[16vh] lg:px-12 px-6 fixed'>
         <img src={logo} alt="" className='lg:w-[80px] w-[60px] h-auto'/>
         <ul className={`${ulClass} ${visibilityClass}`}>
             <Link to="/"><li className='hover:scale-90 transition-all'>Home</li></Link>
