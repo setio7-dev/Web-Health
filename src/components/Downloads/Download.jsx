@@ -10,7 +10,7 @@ const Download = () => {
     <div className='lg:pt-[8%] pt-[30%]'>
         <div className='flex lg:flex-row flex-col justify-around items-center lg:px-[20px] px-[10px]'>
             <div>
-                <div className='lg:w-[450px] space-y-2' data-aos="fade-right" data-aos-duration="800">
+                <div className='lg:w-[450px] space-y-2 -mt-1' data-aos="fade-right" data-aos-duration="800">
                     <h1 className='font-poppins lg:text-[45px] text-[25px] lg:w-[600px] lg:text-start text-center'>SatyGuard : One touch, <br /> 
                     One protection </h1>
                     <p className='font-poppins1 lg:w-[450px] lg:text-[17px] text-[14px] lg:px-0 px-[20px] lg:text-start text-center'>Advanced security protection applications that bring cutting-edge technology to the forefront of security management. Access a wide range of tools and resources designed to enhance overall security and protection.</p>
@@ -26,7 +26,7 @@ const Download = () => {
                     <button className='bg-black font-poppins2 text-white w-full h-[60px] rounded-xl hover:scale-90 hover:opacity-80 transition-all'>Learn more about SatyGuard</button>
                 </div>
             </div>
-            <div className='handphone flex-col items-end justify-center mt-[30px]' data-aos="fade-down-left" data-aos-duration="800">
+            <div className='handphone flex-col items-end justify-center mt-[20px]' data-aos="fade-down-left" data-aos-duration="800">
                 <img src={handphone} alt="" className='h-auto w-[450px] animate-move'/>
                 <div className='bg-primary w-[530px] h-[260px] relative -z-10 rounded-xl -mt-[210px]'></div>
             </div>
