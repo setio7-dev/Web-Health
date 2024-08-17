@@ -7,7 +7,7 @@ import Footer from '../components/Footer.jsx';
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div>
         <div className='relative z-30'>
           <Navbar/>
         </div>

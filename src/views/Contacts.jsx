@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx'
 
 const Contacts = () => {
   return (
-    <div className='container'>
+    <div>
       <div className='relative z-10'>
         <Navbar/>
       </div>
