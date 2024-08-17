@@ -24,12 +24,11 @@ export default {
           to: { transform:'translateX(300%)' }
         },
         move: {
-          '0%': { transform: 'translateY(0)' },
-          '20%': { transform: 'translateY(-5%)' },
-          '40%': { transform: 'translateY(5%)' },
-          '60%': { transform: 'translateY(-5%)' },
-          '80%': { transform: 'translateY(5%)' },
-          '100%': { transform: 'translateY(0)' },
+          '0%': { transform: 'translateY(5%)' },
+          '25%': { transform: 'translateY(-5%)' },
+          '50%': { transform: 'translateY(5%)' },
+          '75%': { transform: 'translateY(-5%)' },
+          '100%': { transform: 'translateY(5%)' },
         }
       },
       animation: {
