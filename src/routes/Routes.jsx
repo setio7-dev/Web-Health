@@ -4,10 +4,12 @@ import Home from '../views/Home.jsx';
 import Information from '../views/Information.jsx';
 import Downloads from '../views/Downloads.jsx';
 import Contacts from '../views/Contacts.jsx';
+import ScrollTop from '../components/ScrollTop.jsx';
 
 const Router = () => {
   return (
     <BrowserRouter>
+      <ScrollTop/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/Information' element={<Information/>}/>
